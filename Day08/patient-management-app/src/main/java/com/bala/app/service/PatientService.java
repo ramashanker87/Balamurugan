@@ -19,9 +19,9 @@ public class PatientService {
         return patient;
     }
 
-    public static Patient updatePatient(String hospitalName, String patientId) {
+    public static Patient updatePatient(String newHospitalName, String patientId) {
     Patient patient1 = patients.get(patientId);
-    patient1.setHospitalName(hospitalName);
+    patient1.setHospitalName(newHospitalName);
     return patient1;
     }
 

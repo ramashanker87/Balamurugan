@@ -24,11 +24,11 @@ public Map<String, Patient> getAllPatients() {
     return PatientService.createPatient(patient);
 }
 @PutMapping("/update")
-    public Patient updatePatient(@RequestParam("hospitalName") String hospitalName, @RequestParam("id") String patientId) {
-    return PatientService.updatePatient(hospitalName,patientId);
+    public Patient updatePatient(@RequestParam("hospitalName") String hospitalName, @RequestParam("id") String id) {
+    return PatientService.updatePatient(hospitalName,id);
 }
 @DeleteMapping("/delete")
-    public void deletePatient(@RequestParam("id") String patientId) {
+    public void deletePatient( @RequestParam("id") String patientId) {
     patientService.deletePatient(patientId);
 }
 }
