@@ -14,7 +14,7 @@ import lombok.ToString;
 import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Entity
-@Table(name ="student")
+@Table(name ="students")
 @Getter
 @Setter
 @NoArgsConstructor
@@ -28,9 +28,13 @@ public class Student {
     private long id;
     @Column(nullable = false)
     private String name;
-    @Column(unique = true,nullable = false)
+    @Column(unique = false,nullable = false)
     private String schoolName;
-    @Column(unique = true,nullable = true)
+    @Column(unique =false,nullable = false)
+    private int age;
+    @Column(nullable = false)
+    private String gender;
+
 
 
 }
