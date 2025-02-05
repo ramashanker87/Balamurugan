@@ -31,3 +31,9 @@ $ docker run -p 8080:8080 hospital-app:0.0.1
 ```
 $ docker ps
 ```
+## Stop Containers 
+
+docker stop $(docker ps -a -q) 
+
+### Remove Container
+docker rm $(docker ps -a -q)
