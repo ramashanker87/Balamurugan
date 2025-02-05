@@ -31,4 +31,8 @@ public Map<String, Patient> getAllPatients() {
     public void deletePatient( @RequestParam("id") String patientId) {
     patientService.deletePatient(patientId);
 }
+    @PostMapping("/create/patient")
+    public Patient createPatients(@RequestBody Patient patient) {
+        return patientService.createPatient(patient);
+    }
 }
