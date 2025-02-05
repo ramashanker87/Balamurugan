@@ -17,15 +17,15 @@ public PatientController(PatientService patientService) {
 
 @GetMapping("/age/all")
 public Map<String, Patient> getAllPatients() {
-    return PatientService.readAllPatient();
+    return patientService.readAllPatient();
 }
 @PostMapping("/save")
     public Patient savePatient(@RequestBody Patient patient) {
-    return PatientService.createPatient(patient);
+    return patientService.createPatient(patient);
 }
 @PutMapping("/update")
     public Patient updatePatient(@RequestParam("hospitalName") String hospitalName, @RequestParam("id") String id) {
-    return PatientService.updatePatient(hospitalName,id);
+    return patientService.updatePatient(hospitalName,id);
 }
 @DeleteMapping("/delete")
     public void deletePatient( @RequestParam("id") String patientId) {
