@@ -30,4 +30,7 @@ public class StudentController {
   public Student deleteStudent(@RequestParam String name) {
     return studentService.deleteStudent(name);
   }
+@GetMapping("/post1")
+
+
 }
