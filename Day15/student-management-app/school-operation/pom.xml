@@ -40,7 +40,7 @@
 <!--				<version>3.4.2</version>-->
 				<version>3.4.2</version>
 				<configuration>
-					<mainClass>com.example.schooloperation.SchoolOperationApplication</mainClass> <!-- Add your main class here -->
+					<mainClass>com.bala.app.SchoolOperationApplication</mainClass> <!-- Add your main class here -->
 				</configuration>
 			</plugin>
 		</plugins>
