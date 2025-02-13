@@ -1,6 +1,5 @@
 package com.bala.app.consumer;
 import com.bala.app.model.Student;
-//import com.rabbit.app.module.Employee;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -14,11 +13,11 @@ public class RabbitMqConsumer {
     public Jackson2JsonMessageConverter jackson2JsonMessageConverter() {
         return new Jackson2JsonMessageConverter();
     }
-    @RabbitListener(queues= "name.out")
+    @RabbitListener(queues= "${rabbitmq.name.queue.name}")
     public void receiveName(Student student) {
         logger.info("receive message: {}", student.toString());
     }
-    @RabbitListener(queues= "student.out")
+    @RabbitListener(queues= "${rabbitmq.student.queue.name}")
     public void receiveStudent(Student student) {
         logger.info("receive message: {}", student.toString());
     }
