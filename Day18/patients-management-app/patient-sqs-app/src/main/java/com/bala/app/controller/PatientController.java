@@ -23,10 +23,10 @@ public class PatientController {
         this.objectMapper = objectMapper;
     }
     @PostMapping("/send")
-    public String sendMessage(@RequestBody Patient patient, @RequestHeader("fever") String disease) throws JsonProcessingException {
+    public String sendMessage(@RequestBody Patient patient, @RequestHeader("disease") String disease) throws JsonProcessingException {
         Map<String, Object> headers = new HashMap<>();
         String correlationId = UUID.randomUUID().toString();
-        headers.put("fever", disease);
+        headers.put("disease", disease);
         headers.put("correlationId", correlationId);
         String requestMessage = objectMapper.writeValueAsString(patient);
         patientService.sendMessage(requestMessage, headers);
