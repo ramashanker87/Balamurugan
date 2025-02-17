@@ -15,3 +15,41 @@
 2025-02-17T10:23:43.022-08:00  INFO 8696 --- [vehicle-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2025-02-17T10:23:43.083-08:00  WARN 8696 --- [vehicle-app] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.bala.app.controller.VehicleController.registerVehicle(com.bala.app.model.Vehicle,com.bala.app.model.Owner)]
 2025-02-17T10:25:29.609-08:00  WARN 8696 --- [vehicle-app] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.bala.app.controller.VehicleController.registerVehicle(com.bala.app.model.Vehicle,com.bala.app.model.Owner)]
+2025-02-17T11:00:09.611-08:00  WARN 8696 --- [vehicle-app] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-02-17T11:00:48.418-08:00  WARN 8696 --- [vehicle-app] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.bala.app.controller.VehicleController.registerVehicle(com.bala.app.model.Vehicle,com.bala.app.model.Owner)]
+2025-02-17T11:10:34.150-08:00  WARN 8696 --- [vehicle-app] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.bala.app.controller.VehicleController.registerVehicle(com.bala.app.model.Vehicle,com.bala.app.model.Owner)]
+2025-02-17T11:12:21.763-08:00  INFO 8696 --- [vehicle-app] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-17T11:12:21.777-08:00  INFO 8696 --- [vehicle-app] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-17T11:12:41.191-08:00  INFO 8416 --- [vehicle-app] [main] c.bala.app.VehicleAppApplicationTests    : Starting VehicleAppApplicationTests using Java 23.0.2 with PID 8416 (started by admin in C:\Users\admin\IdeaProjects\Balamurugan\Day20\vehicle-app)
+2025-02-17T11:12:41.193-08:00  INFO 8416 --- [vehicle-app] [main] c.bala.app.VehicleAppApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-02-17T11:12:43.729-08:00  INFO 8416 --- [vehicle-app] [main] c.bala.app.VehicleAppApplicationTests    : Started VehicleAppApplicationTests in 3.344 seconds (process running for 5.35)
+2025-02-17T11:13:16.642-08:00  INFO 8024 --- [vehicle-app] [main] com.bala.app.VehicleAppApplication       : Starting VehicleAppApplication using Java 23.0.2 with PID 8024 (C:\Users\admin\IdeaProjects\Balamurugan\Day20\vehicle-app\target\classes started by admin in C:\Users\admin\IdeaProjects\Balamurugan\Day20\vehicle-app)
+2025-02-17T11:13:16.646-08:00  INFO 8024 --- [vehicle-app] [main] com.bala.app.VehicleAppApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-17T11:13:17.958-08:00  INFO 8024 --- [vehicle-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-17T11:13:17.981-08:00  INFO 8024 --- [vehicle-app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-17T11:13:17.982-08:00  INFO 8024 --- [vehicle-app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17T11:13:18.071-08:00  INFO 8024 --- [vehicle-app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-17T11:13:18.072-08:00  INFO 8024 --- [vehicle-app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1332 ms
+2025-02-17T11:13:18.580-08:00  INFO 8024 --- [vehicle-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-17T11:13:18.592-08:00  INFO 8024 --- [vehicle-app] [main] com.bala.app.VehicleAppApplication       : Started VehicleAppApplication in 2.707 seconds (process running for 3.331)
+2025-02-17T11:13:30.621-08:00  INFO 8024 --- [vehicle-app] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17T11:13:30.622-08:00  INFO 8024 --- [vehicle-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-17T11:13:30.623-08:00  INFO 8024 --- [vehicle-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-17T11:20:26.385-08:00  INFO 8024 --- [vehicle-app] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-17T11:20:26.396-08:00  INFO 8024 --- [vehicle-app] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-17T11:20:43.533-08:00  INFO 6724 --- [vehicle-app] [main] c.bala.app.VehicleAppApplicationTests    : Starting VehicleAppApplicationTests using Java 23.0.2 with PID 6724 (started by admin in C:\Users\admin\IdeaProjects\Balamurugan\Day20\vehicle-app)
+2025-02-17T11:20:43.536-08:00  INFO 6724 --- [vehicle-app] [main] c.bala.app.VehicleAppApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-02-17T11:20:45.987-08:00  INFO 6724 --- [vehicle-app] [main] c.bala.app.VehicleAppApplicationTests    : Started VehicleAppApplicationTests in 3.263 seconds (process running for 5.205)
+2025-02-17T11:21:00.495-08:00  INFO 2900 --- [vehicle-app] [main] com.bala.app.VehicleAppApplication       : Starting VehicleAppApplication using Java 23.0.2 with PID 2900 (C:\Users\admin\IdeaProjects\Balamurugan\Day20\vehicle-app\target\classes started by admin in C:\Users\admin\IdeaProjects\Balamurugan\Day20\vehicle-app)
+2025-02-17T11:21:00.499-08:00  INFO 2900 --- [vehicle-app] [main] com.bala.app.VehicleAppApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-17T11:21:01.853-08:00  INFO 2900 --- [vehicle-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-17T11:21:01.878-08:00  INFO 2900 --- [vehicle-app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-17T11:21:01.879-08:00  INFO 2900 --- [vehicle-app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-17T11:21:01.961-08:00  INFO 2900 --- [vehicle-app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-17T11:21:01.962-08:00  INFO 2900 --- [vehicle-app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1353 ms
+2025-02-17T11:21:02.467-08:00  INFO 2900 --- [vehicle-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-17T11:21:02.478-08:00  INFO 2900 --- [vehicle-app] [main] com.bala.app.VehicleAppApplication       : Started VehicleAppApplication in 2.765 seconds (process running for 3.404)
+2025-02-17T11:23:20.537-08:00  INFO 2900 --- [vehicle-app] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17T11:23:20.537-08:00  INFO 2900 --- [vehicle-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-17T11:23:20.539-08:00  INFO 2900 --- [vehicle-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-17T11:23:20.680-08:00  INFO 2900 --- [vehicle-app] [http-nio-8080-exec-2] c.bala.app.controller.VehicleController  : Vehicle registered: com.bala.app.model.Vehicle@414d2884
