@@ -53,3 +53,5 @@
 2025-02-17T11:23:20.537-08:00  INFO 2900 --- [vehicle-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-02-17T11:23:20.539-08:00  INFO 2900 --- [vehicle-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2025-02-17T11:23:20.680-08:00  INFO 2900 --- [vehicle-app] [http-nio-8080-exec-2] c.bala.app.controller.VehicleController  : Vehicle registered: com.bala.app.model.Vehicle@414d2884
+2025-02-17T11:32:22.950-08:00  INFO 2900 --- [vehicle-app] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-17T11:32:22.960-08:00  INFO 2900 --- [vehicle-app] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
