@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class ParkingStart {
     String parkingNo;
-    Date startTime;  //(Should always current time)
+     Date startTime;  //(Should always current time)
     String status;  //(Start)
     String regNo; //regNo;
 
@@ -32,7 +32,7 @@ public class ParkingStart {
         this.status = status;
     }
 
-    public String getRegNo() {
+    public  String getRegNo() {
         return regNo;
     }
 
