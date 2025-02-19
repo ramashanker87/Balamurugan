@@ -1,7 +1,9 @@
 package com.bala.app.model;
 
-import java.util.Date;
+import org.springframework.stereotype.Service;
 
+import java.util.Date;
+@Service
 public class ParkingStart {
     String parkingNo;
      Date startTime;  //(Should always current time)
