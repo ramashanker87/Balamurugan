@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  BalaECRRepository:
+    Type: AWS::ECR::Repository
+    Properties:
+      RepositoryName: bala-microservice-repo
