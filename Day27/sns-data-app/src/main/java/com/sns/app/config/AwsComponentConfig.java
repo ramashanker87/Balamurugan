@@ -1,4 +1,4 @@
-package com.bala.app.config;
+package com.sns.app.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

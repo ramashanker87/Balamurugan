@@ -1,10 +1,19 @@
 package com.bala.app.model;
 
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
-@Service
+//@Service
+@Entity
 public class ParkingStart {
+   @Id
+   @GeneratedValue(strategy = GenerationType.AUTO)
+    int id;
     String parkingNo;
      Date startTime;  //(Should always current time)
     String status;  //(Start)

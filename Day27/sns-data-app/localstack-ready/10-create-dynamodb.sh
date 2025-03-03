@@ -21,6 +21,6 @@ list_dynamodb_tables(){
   awslocal --endpoint-url=${LOCALSTACK_URL} dynamodb list-tables
 }
 
-create_dynamodb parking-status
+create_dynamodb rama-parking-status
 
 echo $(list_dynamodb_tables)
