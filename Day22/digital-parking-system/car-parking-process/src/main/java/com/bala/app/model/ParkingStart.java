@@ -1,12 +1,25 @@
 package com.bala.app.model;
 
-import org.springframework.stereotype.Service;
+import java.time.LocalDateTime;
 
-import java.util.Date;
-@Service
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.*;
+
+@Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class ParkingStart {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     String parkingNo;
-     Date startTime;  //(Should always current time)
+     private LocalDateTime startTime;  //(Should always current time)
     String status;  //(Start)
     String regNo; //regNo;
 
@@ -18,11 +31,11 @@ public class ParkingStart {
         this.parkingNo = parkingNo;
     }
 
-    public Date getStartTime() {
+    public LocalDateTime getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(Date startTime) {
+    public void setStartTime(LocalDateTime startTime) {
         this.startTime = startTime;
     }
 

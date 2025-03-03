@@ -1,6 +1,21 @@
 package com.bala.app.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.*;
+
+@Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Car {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     String ownerName;
     String regNo;
     String module;
@@ -38,4 +53,14 @@ public class Car {
     }
 
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                //"id=" + id +
+                ", OwnerName='" + ownerName + '\'' +
+                ", RegistrationNumber='" + regNo + '\'' +
+                ", modelNumber='" + module + '\'' +
+                ", fuelType='" + type + '\'' +
+                '}';
+    }
 }

@@ -1,8 +1,6 @@
 package com.bala.app.controller;
 
 import com.bala.app.model.Car;
-import com.bala.app.model.ParkingEnd;
-import com.bala.app.model.ParkingStart;
 import com.bala.app.service.ParkingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,14 +19,14 @@ public class ParkingController {
     }
 
     @PostMapping("/start")
-    public ParkingStart startParking(@RequestBody Car car, @RequestParam String parkingNo) {
+    public String startParking(@RequestBody Car car, @RequestParam String parkingNo) {
         logger.info("Starting Parking System");
     return parkingService.startParking(car,parkingNo);
         //return parkingService.toString();
         //return car;
     }
     @PostMapping("/end")
-    public ParkingEnd endParking(@RequestParam String regNo) {
+    public String endParking(@RequestParam String regNo) {
         logger.info("Ending Parking System");
         return parkingService.endParking(regNo);
 
