@@ -8,12 +8,12 @@ import jakarta.persistence.Id;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
-//@Service
-@Entity
+@Service
+//@Entity
 public class ParkingStart {
-   @Id
-   @GeneratedValue(strategy = GenerationType.AUTO)
-    int id;
+//   @Id
+//   @GeneratedValue(strategy = GenerationType.AUTO)
+//    int id;
     String parkingNo;
      Date startTime;  //(Should always current time)
     String status;  //(Start)
