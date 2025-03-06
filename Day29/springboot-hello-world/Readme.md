@@ -50,5 +50,6 @@
 ```
 ## Verify the rest end point
 
+
     curl --location 'http://rama-test-hello-alb-1784220606.us-east-1.elb.amazonaws.com/hello'
     curl --location 'http://rama-test-hello-alb-1784220606.us-east-1.elb.amazonaws.com/actuator/health'
